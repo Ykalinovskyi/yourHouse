@@ -1,0 +1,14 @@
+// переменные
+@import "./base/_vars";
+
+// шрифты
+@import "./base/_fonts";
+
+// ограничивающий контейнер
+@import "./base/container";
+
+// основные блоки
+@import "./blocks/_header";
+@import "./blocks/_logo";
+@import "./blocks/_navigation";
+@import "./blocks/_location";
