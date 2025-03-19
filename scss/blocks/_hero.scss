@@ -1,0 +1,111 @@
+.hero {
+    padding-top: 42px;
+    background-color: $mainBG;
+    position: relative;
+}
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    justify-content: center;
+
+    max-width: 1240px;
+    min-height: 270px;
+    margin: 0 auto;
+    padding-left: 105px;
+    
+    background-image: url('./../../img/hero/Rectangle 7.jpg');
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        background-image: url('./../../img/hero/Rectangle 7@2x.jpg');
+    }
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -1px right;
+}
+._hero_promotion {
+    grid-column: span 3;
+    span {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        text-align: center;
+        color: #fff;
+
+        display: inline-block;
+        border: 1px solid #ececec;
+        border-radius: 100px;
+        padding: 8px 12px;
+    }
+}
+.hero__info {
+
+}
+
+.hero__row {
+    display: flex;
+    column-gap: 42px;
+}
+.hero__title {
+    margin: 0;
+    margin-bottom: 18px;
+    font-family: 'Play';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1;
+    
+    text-transform: uppercase;
+    color: $white;
+}
+.hero__button {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: inherit;
+    color: $white;
+    
+    background-color: $red;
+    padding: 12px 114px;
+
+    &:hover {
+        background-color: $redhover;
+    }
+
+}
+.hero__text {
+    width: 240px;
+    p {
+        margin: 0;
+        font-family: inherit;
+        font-size: 18px;
+        line-height: inherit;
+        color: $white;
+    }
+
+    & p + p {
+        margin-top: 1em;
+    }
+}
+.hero__pagination-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    display: flex;
+    column-gap: 18px;
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.hero__pagination-item {
+    width: 46px;
+}
+.hero__pagination-link {
+    display: block;
+    height: 3px;
+    background-color: rgba(255,255,255, .36);
+
+    &.active {
+        background-color: $white;
+    }
+}

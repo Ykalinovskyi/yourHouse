@@ -1,0 +1,42 @@
+.button {
+    padding: 0;
+    
+    background: transparent;
+    border: none;
+    font-family: inherit;
+
+    border-radius: 100px;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease-in;
+}
+
+// кноки слайдера
+.hero__slider-btn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255, .36);
+
+    fill: $white;
+
+    &:hover {
+        background-color: rgb(255, 255, 255, .7);
+    }
+
+    &:hover svg {
+        fill: $titleDark;
+    }
+} 
+.hero__slider-btn_left {
+    top: calc(50% + 25px);
+    transform: translateY(-50%);
+    left: 113px;
+}
+.hero__slider-btn_right {
+    top: calc(50% + 25px);
+    transform: translateY(-50%);
+    right: 113px;
+}

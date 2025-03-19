@@ -1,11 +1,11 @@
 .header {
     background-color: $mainBG;
-    // padding: 32px 0;
 }
 
 .header__row {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid $grey;
 }
 .header__logo {
     margin-right: 116px;
