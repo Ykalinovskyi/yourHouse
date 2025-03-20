@@ -12,6 +12,21 @@
     transition: all 0.3s ease-in;
 }
 
+.button-red {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: inherit;
+    color: $white;
+    
+    background-color: $red;
+    padding: 12px 114px;
+
+    &:hover {
+        background-color: $redhover;
+    }
+
+}
+
 // кноки слайдера
 .hero__slider-btn{
     position: absolute;

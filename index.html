@@ -57,55 +57,88 @@
     <main class="main-index">
         <h1 class="visually-hidden">Сайт компании товаров для дома</h1>
         <section class="hero">
-            <div class="hero__content">
-                <div class="_hero_promotion">
-                    <span>акция</span>
-                    <span>10 октября - 28 октября</span>
+            <div class="hero__slide">
+                <div class="hero__content">
+                    <div class="_hero_promotion">
+                        <span>акция</span>
+                        <span>10 октября - 28 октября</span>
+                    </div>
+                    <div class="hero__row">
+                        <div class="hero__info">
+                            <h2 class="hero__title">Утепление лоджии</h2>
+                            <button class="button button-red" type="button">
+                                <span class="visually-hidden">Кнопка заказать</span>
+                                Заказать
+                            </button>
+                        </div>
+                        <div class="hero__text">
+                            <p>Скидка 15% для новых клиентов при заказе услуги Утепление лоджии</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="hero__row">
-                    <div class="hero__info">
-                        <h2 class="hero__title">Утепление лоджии</h2>
-                        <button class="button hero__button" type="button">
-                            <span class="visually-hidden">Кнопка заказать</span>
-                            Заказать
-                        </button>
-                    </div>
-                    <div class="hero__text">
-                        <p>Скидка 15% для новых клиентов при заказе услуги Утепление лоджии</p>
-                    </div>
+                <ul class="hero__pagination-list">
+                    <li class="hero__pagination-item">
+                        <a href="#!" class="hero__pagination-link active">
+                            <span class="visually-hidden">слайд 1</span>
+                        </a>
+                    </li>
+                    <li class="hero__pagination-item">
+                        <a href="#!" class="hero__pagination-link">
+                            <span class="visually-hidden">слайд 2</span>
+                        </a>
+                    </li>
+                    <li class="hero__pagination-item">
+                        <a href="#!" class="hero__pagination-link">
+                            <span class="visually-hidden">слайд 3</span>
+                        </a>
+                    </li>
+                </ul>
+                <button type="button" class="button hero__slider-btn hero__slider-btn_left">
+                    <span class="visually-hidden">кнопка переключения слайда влево</span>
+                    <svg width="24" height="25" viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4 12.3335C4 11.7812 4.44772 11.3335 5 11.3335H19C19.5523 11.3335 20 11.7812 20 12.3335C20 12.8858 19.5523 13.3335 19 13.3335H5C4.44772 13.3335 4 12.8858 4 12.3335Z" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7071 4.62639C13.0976 5.01691 13.0976 5.65008 12.7071 6.0406L6.41421 12.3335L12.7071 18.6264C13.0976 19.0169 13.0976 19.6501 12.7071 20.0406C12.3166 20.4311 11.6834 20.4311 11.2929 20.0406L4.29289 13.0406C3.90237 12.6501 3.90237 12.0169 4.29289 11.6264L11.2929 4.62639C11.6834 4.23586 12.3166 4.23586 12.7071 4.62639Z"/>
+                    </svg>
+                </button>
+                <button type="button" class="button hero__slider-btn hero__slider-btn_right">
+                    <span class="visually-hidden">Кнопка переключение слайда вправо</span>
+                    <svg width="24" height="25" viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4 12.9502C4 12.3979 4.44772 11.9502 5 11.9502H19C19.5523 11.9502 20 12.3979 20 12.9502C20 13.5025 19.5523 13.9502 19 13.9502H5C4.44772 13.9502 4 13.5025 4 12.9502Z" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2929 5.24309C11.6834 4.85256 12.3166 4.85256 12.7071 5.24309L19.7071 12.2431C20.0976 12.6336 20.0976 13.2668 19.7071 13.6573L12.7071 20.6573C12.3166 21.0478 11.6834 21.0478 11.2929 20.6573C10.9024 20.2668 10.9024 19.6336 11.2929 19.2431L17.5858 12.9502L11.2929 6.6573C10.9024 6.26678 10.9024 5.63361 11.2929 5.24309Z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="hero__info-block info-block">
+                <div class="container">
+                    <h2 class="info-block__title">Услуги и товары для вашего дома</h2>
+                <ul class="info-block__list">
+                    <li class="info-block__item">
+                        <b>ремонт</b>
+                        <p>Комплекс мероприятий по восстановлению работоспособного какого-либо объекта </p>
+                    </li>
+                    <li class="info-block__item">
+                        <b>Клининг</b>
+                        <p>Комплекс мероприятий по восстановлению работоспособного какого-либо объекта </p>
+                    </li>
+                    <li class="info-block__item">
+                        <b>пвх-изделия</b>
+                        <p>Комплекс мероприятий по восстановлению работоспособного какого-либо объекта </p>
+                    </li>
+                </ul>
                 </div>
             </div>
-            <ul class="hero__pagination-list">
-                <li class="hero__pagination-item">
-                    <a href="#!" class="hero__pagination-link active">
-                        <span class="visually-hidden">слайд 1</span>
-                    </a>
-                </li>
-                <li class="hero__pagination-item">
-                    <a href="#!" class="hero__pagination-link">
-                        <span class="visually-hidden">слайд 2</span>
-                    </a>
-                </li>
-                <li class="hero__pagination-item">
-                    <a href="#!" class="hero__pagination-link">
-                        <span class="visually-hidden">слайд 3</span>
-                    </a>
-                </li>
-            </ul>
-            <button type="button" class="button hero__slider-btn hero__slider-btn_left">
-                <span class="visually-hidden">кнопка переключения слайда влево</span>
-                <svg width="24" height="25" viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 12.3335C4 11.7812 4.44772 11.3335 5 11.3335H19C19.5523 11.3335 20 11.7812 20 12.3335C20 12.8858 19.5523 13.3335 19 13.3335H5C4.44772 13.3335 4 12.8858 4 12.3335Z" />
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7071 4.62639C13.0976 5.01691 13.0976 5.65008 12.7071 6.0406L6.41421 12.3335L12.7071 18.6264C13.0976 19.0169 13.0976 19.6501 12.7071 20.0406C12.3166 20.4311 11.6834 20.4311 11.2929 20.0406L4.29289 13.0406C3.90237 12.6501 3.90237 12.0169 4.29289 11.6264L11.2929 4.62639C11.6834 4.23586 12.3166 4.23586 12.7071 4.62639Z"/>
-                </svg>
-            </button>
-            <button type="button" class="button hero__slider-btn hero__slider-btn_right">
-                <span class="visually-hidden">Кнопка переключение слайда вправо</span>
-                <svg width="24" height="25" viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 12.9502C4 12.3979 4.44772 11.9502 5 11.9502H19C19.5523 11.9502 20 12.3979 20 12.9502C20 13.5025 19.5523 13.9502 19 13.9502H5C4.44772 13.9502 4 13.5025 4 12.9502Z" />
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2929 5.24309C11.6834 4.85256 12.3166 4.85256 12.7071 5.24309L19.7071 12.2431C20.0976 12.6336 20.0976 13.2668 19.7071 13.6573L12.7071 20.6573C12.3166 21.0478 11.6834 21.0478 11.2929 20.6573C10.9024 20.2668 10.9024 19.6336 11.2929 19.2431L17.5858 12.9502L11.2929 6.6573C10.9024 6.26678 10.9024 5.63361 11.2929 5.24309Z" />
-                </svg>
-            </button>
+
+        </section>
+        <section class="presentation">
+            <img class="presentation__img" src="./img/presentation/presentation.jpg" alt="картинка поста презентации" srcset="./img/presentation/presentation@2x.jpg 2x">
+            <div class="presentation__details">
+                <h2 class="presentation__title">услуги для дома</h2>
+                <p>Однозначно, интерактивные прототипы, инициированные исключительно синтетически, описаны максимально подробно. Значимость этих проблем настолько очевидна, что перспективное планирование является качественно новой ступенью первоочередных требований.</p>
+                <button class="button button-red" type="button">
+                    <span class="visually-hidden">кнопка показать все услуги</span>
+                    Все услуги
+                </button>
+            </div>
         </section>
     </main>
 </body>

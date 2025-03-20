@@ -1,8 +1,14 @@
 .hero {
     padding-top: 42px;
     background-color: $mainBG;
+    
+}
+
+.hero__slide {
+    margin-bottom: 100px;
     position: relative;
 }
+
 .hero__content {
     display: flex;
     flex-direction: column;
@@ -57,20 +63,7 @@
     text-transform: uppercase;
     color: $white;
 }
-.hero__button {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: inherit;
-    color: $white;
-    
-    background-color: $red;
-    padding: 12px 114px;
 
-    &:hover {
-        background-color: $redhover;
-    }
-
-}
 .hero__text {
     width: 240px;
     p {
@@ -104,8 +97,10 @@
     display: block;
     height: 3px;
     background-color: rgba(255,255,255, .36);
+    transition: all 0.3s ease-in;
 
-    &.active {
+
+    &.active, &:hover {
         background-color: $white;
     }
 }
